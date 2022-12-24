@@ -66,8 +66,10 @@ h3 {
 
 h4 {
   color: var(--very-dark-blue);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 800;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -83,7 +85,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
   column-gap: 1.5rem;
-  row-gap: 3rem;
+  row-gap: 4rem;
 }
 
 .head_article {
@@ -101,7 +103,7 @@ aside {
 .article-two,
 .article-three {
   display: grid;
-  grid-template-columns: 2fr 6fr;
+  grid-template-columns: 3fr 8fr;
 }
 
 /* NAVIGATION */
@@ -171,4 +173,16 @@ aside {
   background-color: var(--soft-red);
   color: var(--off-white);
   margin-top: 1.8rem;
+}
+
+/* ARTICLES */
+
+.article_number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--grayish-blue);
+}
+
+.article_box {
+  padding-left: 1.4rem;
 }
