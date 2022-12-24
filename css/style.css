@@ -60,7 +60,8 @@ h2 {
 h3 {
   color: #fff;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 19px;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -73,10 +74,6 @@ p {
   font-size: 15px;
   color: var(--dark-grayish-blue);
   line-height: 1.6;
-}
-
-aside p {
-  color: var(--grayish-blue);
 }
 
 /* LAYOUT */
@@ -133,4 +130,21 @@ aside {
   text-decoration: none;
   color: var(--dark-grayish-blue);
   font-weight: 500;
+}
+
+/* SIDEBAR */
+
+.sidebar_text {
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--dark-grayish-blue);
+}
+
+.sidebar_text:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.sidebar_text p {
+  color: var(--grayish-blue);
 }
