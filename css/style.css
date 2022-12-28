@@ -199,7 +199,8 @@ aside {
   align-items: center;
 }
 
-.head_article-button {
+.head_article-button:link,
+.head_article-button:visited {
   display: inline-block;
   padding: 12px 34px;
   font-size: 15px;
@@ -210,6 +211,11 @@ aside {
   background-color: var(--soft-red);
   color: var(--off-white);
   margin-top: 1.8rem;
+}
+
+.head_article-button:hover,
+.head_article-button:active {
+  background-color: #000;
 }
 
 /* ARTICLES */
