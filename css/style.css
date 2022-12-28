@@ -60,7 +60,6 @@ h2 {
 }
 
 h3 {
-  color: #fff;
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 0.5rem;
@@ -176,6 +175,18 @@ aside {
 
 .sidebar_text p {
   color: var(--grayish-blue);
+}
+
+.sidebar_title-link:link,
+.sidebar_title-link:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sidebar_title-link:hover,
+.sidebar_title-link:active {
+  color: var(--soft-orange);
 }
 
 /* HEAD ARTICLE */
