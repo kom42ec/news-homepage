@@ -149,10 +149,16 @@ aside {
 .nav_list-item {
 }
 
-.nav_list-link {
+.nav_list-link:link,
+.nav_list-link:visited {
   text-decoration: none;
   color: var(--dark-grayish-blue);
   font-weight: 500;
+}
+
+.nav_list-link:hover,
+.nav_list-link:active {
+  color: var(--soft-red);
 }
 
 /* SIDEBAR */
