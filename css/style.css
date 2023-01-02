@@ -86,7 +86,7 @@ main {
   grid-template-areas:
     "head-article head-article sidebar"
     "head-article head-article sidebar"
-    "article-one article-two article-three";
+    "articles articles articles";
   column-gap: 1.5rem;
   row-gap: 4rem;
 }
@@ -108,16 +108,8 @@ aside {
   grid-template-columns: 3fr 8fr;
 }
 
-.article-one {
-  grid-area: article-one;
-}
-
-.article-two {
-  grid-area: article-two;
-}
-
-.article-three {
-  grid-area: article-three;
+.articles {
+  grid-area: articles;
 }
 
 /* NAVIGATION */
@@ -222,6 +214,12 @@ aside {
 
 /* ARTICLES */
 
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.5rem;
+}
+
 .article_number {
   font-size: 1.8rem;
   font-weight: 700;
@@ -229,7 +227,7 @@ aside {
 }
 
 .article_box {
-  padding-left: 1.4rem;
+  padding-left: 1.5rem;
 }
 
 .article_title-link:link,
@@ -259,9 +257,12 @@ aside {
     grid-template-areas:
       "head-article"
       "sidebar"
-      "article-one"
-      "article-two"
-      "article-three";
+      "articles";
+  }
+
+  .articles {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
   }
 
   .head_article-text {
