@@ -30,8 +30,8 @@
 
 body {
   max-width: 1120px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
   font-size: 15px;
@@ -130,6 +130,13 @@ aside {
   margin-bottom: 50px;
 }
 
+.btn_mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
 .nav_bar {
 }
 
@@ -197,7 +204,7 @@ aside {
 .head_article-button:link,
 .head_article-button:visited {
   display: inline-block;
-  padding: 12px 34px;
+  padding: 16px 36px;
   font-size: 15px;
   letter-spacing: 3px;
   text-decoration: none;
@@ -239,6 +246,12 @@ aside {
 
 /* MOBILE DESIGN */
 
+@media only screen and (max-width: 1100px) {
+  .head_article-text {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   main {
     display: grid;
@@ -260,11 +273,19 @@ aside {
   }
 
   .main-header {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   h1 {
     font-size: 2.5rem;
+  }
+
+  .btn_mobile-nav {
+    display: block;
+  }
+
+  .mobile-close {
+    display: none;
   }
 }
