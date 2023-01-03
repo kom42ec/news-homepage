@@ -37,6 +37,7 @@ body {
   font-size: 15px;
   font-family: "Inter", sans-serif;
   background-color: var(--off-white);
+  padding-bottom: 4rem;
 }
 
 img {
@@ -118,8 +119,8 @@ aside {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 80px;
-  margin-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 .btn_mobile-nav {
@@ -274,8 +275,8 @@ aside {
   }
 
   .main-header {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   h1 {
