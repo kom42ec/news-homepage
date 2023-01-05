@@ -1,4 +1,4 @@
-// Mobile navigation
+// Toggle mobile navigation
 
 const btnNavEl = document.querySelector(".btn_mobile-nav");
 const headerEl = document.querySelector(".main-header");
